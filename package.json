@@ -1,0 +1,41 @@
+{
+  "name": "javascript-console-styling",
+  "version": "1.0.0",
+  "description": "A package made specifically for providing you with all the javascript console colors and styles you'll ever need as simple functions!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proman4713/javascript-console-colors.git"
+  },
+  "keywords": [
+    "console",
+    "javascript",
+    "nodejs",
+    "browser",
+    "chrome",
+    "command-line",
+    "cli",
+    "colors",
+    "color",
+    "styling",
+    "bold",
+    "italic",
+    "npm",
+    "utilities",
+    "tools"
+  ],
+  "files": [
+	"index.js",
+	"Decorations",
+	"Colors"
+  ],
+  "author": "Proman4713 <proman4713@proman4713gamedev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Proman4713/javascript-console-colors/issues"
+  },
+  "homepage": "https://github.com/Proman4713/javascript-console-colors#readme"
+}
