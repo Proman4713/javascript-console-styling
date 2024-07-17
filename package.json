@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Proman4713/javascript-console-colors.git"
+    "url": "git+https://github.com/Proman4713/javascript-console-styling.git"
   },
   "keywords": [
     "console",
@@ -35,7 +35,7 @@
   "author": "Proman4713 <proman4713@proman4713gamedev.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Proman4713/javascript-console-colors/issues"
+    "url": "https://github.com/Proman4713/javascript-console-styling/issues"
   },
-  "homepage": "https://github.com/Proman4713/javascript-console-colors#readme"
+  "homepage": "https://github.com/Proman4713/javascript-console-styling#readme"
 }

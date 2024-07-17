@@ -8,7 +8,7 @@ function main() {
 		);
 		if (colorFunction == "black") {
 			output = Colors.whiteBg(output);
-		} else if (colorFunction == "whiteBg") {
+		} else if (["whiteBg", "brightWhiteBg"].includes(colorFunction)) {
 			output = Colors.black(output);
 		}
 		console.log(output);

@@ -16,7 +16,7 @@
 </p>
 
 # Features
-This package comes with all available console styling escape codes in the form of functions, which allows for features that [`console-styling`](https://github.com/robinvdvleuten/console-styling) does not provide such as nesting colors and/or decorations. This package also provides a `main.js` file that can be used to easily test out all the functions and their output in different environments.
+This package comes with all available console styling escape codes in the form of functions, which allows for features that [`console-styling`](https://www.npmjs.com/package/console-styling) does not provide such as nesting colors and/or decorations. This package also provides a `main.js` file that can be used to easily test out all the functions and their output in different environments.
 
 ## Colors
 - Black
@@ -61,7 +61,57 @@ This package comes with all available console styling escape codes in the form o
 - RapidBlink `Not widely supported`
 - Reverse `Not widely supported`
 - Hidden `Not widely supported`
-- Strikethrough `Not supported by all terminals (specifically the "Terminal App" according to Wikipedia)`
+- Strikethrough `Not supported by all terminals (mostly the Windows Terminal)`
 
 # Usage
-This section is still being structured
+### Option 1: Import all the colors and decorations
+You can import all the color styles and decorations together with the following code:
+
+```js
+const JCS = require("javascript-console-styling");
+```
+You can also import the `Colors` and `Decorations` object with the following code:
+
+```js
+const { Colors, Decorations } = require("javascript-console-styling");
+```
+And later use individual styles:
+
+```js
+console.log(Colors.redBg(Decorations.underline("Hello, world!")));
+```
+or declare them on their own:
+
+```js
+const redBg = Colors.redBg;
+const underline = Decorations.underline;
+console.log(redBg(underline("Hello, world!")));
+```
+
+### Option 2: Import only the colors
+If you only want to use the color styles, you can import them on their own with the following code:
+
+```js
+const Colors = require("javascript-console-styling/Colors");
+```
+You can also import a specific color styling on its own with the following code:
+
+```js
+const { red, magenta, cyanBg } = require("javascript-console-styling/Colors");
+```
+
+### Option 3: Import only the decorations
+If you only want to use the decorations, you can import them on their own with the following code:
+
+```js
+const Decorations = require("javascript-console-styling/Decorations");
+```
+You can also import a specific decoration on its own with the following code:
+
+```js
+const { bright, underline, strikethrough } = require("javascript-console-styling/Decorations");
+```
+
+# Issues
+
+You can file an issue on [Github](https://github.com/Proman4713/javascript-console-styling/issues), your issue can be a suggestion or a bug report as long as it's not a duplicate and is detailed and concisely described.
