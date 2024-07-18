@@ -19,49 +19,21 @@
 This package comes with all available console styling escape codes in the form of functions, which allows for features that [`console-styling`](https://www.npmjs.com/package/console-styling) does not provide such as nesting colors and/or decorations. This package also provides a `main.js` file that can be used to easily test out all the functions and their output in different environments.
 
 ## Colors
-- Black
-- Black Background
-- Red
-- Red Background
-- Green
-- Green Background
-- Yellow
-- Yellow Background
-- Blue
-- Blue Background
-- Magenta
-- Magenta Background
-- Cyan
-- Cyan Background
-- White
-- White Background
-- Gray
-- Gray Background
-- Bright Red
-- Bright Red Background
-- Bright Green
-- Bright Green Background
-- Bright Yellow
-- Bright Yellow Background
-- Bright Blue
-- Bright Blue Background
-- Bright Magenta
-- Bright Magenta Background
-- Bright Cyan
-- Bright Cyan Background
-- Bright White
-- Bright White Background
+`Black`, `Black Background`, `Red`, `Red Background`, `Green`, `Green Background`, `Yellow`, `Yellow Background`, `Blue`, `Blue Background`, `Magenta`, `Magenta Background`, `Cyan`, `Cyan Background`, `White`, `White Background`, `Gray`, `Gray Background`, `Bright Red`, `Bright Red Background`, `Bright Green`, `Bright Green Background`, `Bright Yellow`, `Bright Yellow Background`, `Bright Blue`, `Bright Blue Background`, `Bright Magenta`, `Bright Magenta Background`, `Bright Cyan`, `Bright Cyan Background`, `Bright White`, `Bright White Background`
+
+![All available colours](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ki6bt5lvbe4lbcrncsrn.png)
 
 ## Decorations
-- Bright
-- Dim
-- Italic `Not widely supported`
-- Underline
-- SlowBlink
-- RapidBlink `Not widely supported`
-- Reverse `Not widely supported`
-- Hidden `Not widely supported`
-- Strikethrough `Not supported by all terminals (mostly the Windows Terminal)`
+`Bright`, `Dim`, *Italic `Not widely supported`*, `Underline`, `SlowBlink`, *RapidBlink `Not widely supported`*, *Reverse `Not widely supported`*, *Hidden `Not widely supported`*, *Strikethrough `Not supported by all terminals (mostly the Windows Terminal)`*
+
+![All available decorations, the eighth one is "hidden"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0r1rgk6jw9uxvsuy0f22.gif)
+
+## Combinations
+You can obviously combined color styles and decorations together by nesting them:
+
+![All available decoration/colour style combinations](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y439cad9qfhlzxxdqc1i.gif)
+
+![The first block of those two is hidden](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mhvmily462ti5fu0h5h6.png)
 
 # Usage
 ### Option 1: Import all the colors and decorations
