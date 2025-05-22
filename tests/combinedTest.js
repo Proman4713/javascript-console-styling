@@ -1,39 +1,39 @@
 const Decorations = require("../Decorations");
-const { red, redBg, brightRed, brightRedBg } = require("../Colors")
+const { red, redBg, brightRed, brightRedBg } = require("../Colours")
 
 function main() {
-	for (const colorFunction in Decorations) {
-		let withRedFg = Decorations[colorFunction](
+	for (const colourFunction in Decorations) {
+		let withRedFg = Decorations[colourFunction](
 			red(
-				colorFunction[0].toUpperCase() +
-				colorFunction.slice(1) +
+				colourFunction[0].toUpperCase() +
+				colourFunction.slice(1) +
 				" with Red Foreground"
 			)
 		);
 		console.log(withRedFg);
 
-		let withRedBg = Decorations[colorFunction](
+		let withRedBg = Decorations[colourFunction](
 			redBg(
-				colorFunction[0].toUpperCase() +
-				colorFunction.slice(1) +
+				colourFunction[0].toUpperCase() +
+				colourFunction.slice(1) +
 				" with Red Background"
 			)
 		);
 		console.log(withRedBg);
 
-		let withBrightRedFg = Decorations[colorFunction](
+		let withBrightRedFg = Decorations[colourFunction](
 			brightRed(
-				colorFunction[0].toUpperCase() +
-				colorFunction.slice(1) +
+				colourFunction[0].toUpperCase() +
+				colourFunction.slice(1) +
 				" with Bright Red Foreground"
 			)
 		);
 		console.log(withBrightRedFg);
 
-		let withBrightRedBg = Decorations[colorFunction](
+		let withBrightRedBg = Decorations[colourFunction](
 			brightRedBg(
-				colorFunction[0].toUpperCase() +
-				colorFunction.slice(1) +
+				colourFunction[0].toUpperCase() +
+				colourFunction.slice(1) +
 				" with Bright Red Background"
 			)
 		);

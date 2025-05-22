@@ -4,7 +4,7 @@
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function black(text, terminate) {
+function black(text, terminate=true) {
 	return `\x1b[30m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -14,7 +14,7 @@ function black(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function blackBg(text, terminate) {
+function blackBg(text, terminate=true) {
 	return `\x1b[40m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -24,7 +24,7 @@ function blackBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function red(text, terminate) {
+function red(text, terminate=true) {
 	return `\x1b[31m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -34,7 +34,7 @@ function red(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function redBg(text, terminate) {
+function redBg(text, terminate=true) {
 	return `\x1b[41m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -44,7 +44,7 @@ function redBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function green(text, terminate) {
+function green(text, terminate=true) {
 	return `\x1b[32m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -54,7 +54,7 @@ function green(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function greenBg(text, terminate) {
+function greenBg(text, terminate=true) {
 	return `\x1b[42m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -64,7 +64,7 @@ function greenBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function yellow(text, terminate) {
+function yellow(text, terminate=true) {
 	return `\x1b[33m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -74,7 +74,7 @@ function yellow(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function yellowBg(text, terminate) {
+function yellowBg(text, terminate=true) {
 	return `\x1b[43m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -84,7 +84,7 @@ function yellowBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function blue(text, terminate) {
+function blue(text, terminate=true) {
 	return `\x1b[34m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -94,7 +94,7 @@ function blue(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function blueBg(text, terminate) {
+function blueBg(text, terminate=true) {
 	return `\x1b[44m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -104,7 +104,7 @@ function blueBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function magenta(text, terminate) {
+function magenta(text, terminate=true) {
 	return `\x1b[35m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -114,7 +114,7 @@ function magenta(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function magentaBg(text, terminate) {
+function magentaBg(text, terminate=true) {
 	return `\x1b[45m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -124,7 +124,7 @@ function magentaBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function cyan(text, terminate) {
+function cyan(text, terminate=true) {
 	return `\x1b[36m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -134,7 +134,7 @@ function cyan(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function cyanBg(text, terminate) {
+function cyanBg(text, terminate=true) {
 	return `\x1b[46m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -144,7 +144,7 @@ function cyanBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function white(text, terminate) {
+function white(text, terminate=true) {
 	return `\x1b[37m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -154,7 +154,7 @@ function white(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function whiteBg(text, terminate) {
+function whiteBg(text, terminate=true) {
 	return `\x1b[47m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -164,7 +164,7 @@ function whiteBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function gray(text, terminate) {
+function gray(text, terminate=true) {
 	return `\x1b[90m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -174,7 +174,7 @@ function gray(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function grayBg(text, terminate) {
+function grayBg(text, terminate=true) {
 	return `\x1b[100m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -184,7 +184,7 @@ function grayBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightRed(text, terminate) {
+function brightRed(text, terminate=true) {
 	return `\x1b[91m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -194,7 +194,7 @@ function brightRed(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightRedBg(text, terminate) {
+function brightRedBg(text, terminate=true) {
 	return `\x1b[101m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -204,7 +204,7 @@ function brightRedBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightGreen(text, terminate) {
+function brightGreen(text, terminate=true) {
 	return `\x1b[92m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -214,7 +214,7 @@ function brightGreen(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightGreenBg(text, terminate) {
+function brightGreenBg(text, terminate=true) {
 	return `\x1b[102m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -224,7 +224,7 @@ function brightGreenBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightYellow(text, terminate) {
+function brightYellow(text, terminate=true) {
 	return `\x1b[93m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -234,7 +234,7 @@ function brightYellow(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightYellowBg(text, terminate) {
+function brightYellowBg(text, terminate=true) {
 	return `\x1b[103m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -244,7 +244,7 @@ function brightYellowBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightBlue(text, terminate) {
+function brightBlue(text, terminate=true) {
 	return `\x1b[94m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -254,7 +254,7 @@ function brightBlue(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightBlueBg(text, terminate) {
+function brightBlueBg(text, terminate=true) {
 	return `\x1b[104m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -264,7 +264,7 @@ function brightBlueBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightMagenta(text, terminate) {
+function brightMagenta(text, terminate=true) {
 	return `\x1b[95m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -274,7 +274,7 @@ function brightMagenta(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightMagentaBg(text, terminate) {
+function brightMagentaBg(text, terminate=true) {
 	return `\x1b[105m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -284,7 +284,7 @@ function brightMagentaBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightCyan(text, terminate) {
+function brightCyan(text, terminate=true) {
 	return `\x1b[96m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -294,7 +294,7 @@ function brightCyan(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightCyanBg(text, terminate) {
+function brightCyanBg(text, terminate=true) {
 	return `\x1b[106m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -304,7 +304,7 @@ function brightCyanBg(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightWhite(text, terminate) {
+function brightWhite(text, terminate=true) {
 	return `\x1b[97m${text}` + (terminate ? `\x1b[0m` : "");
 }
 
@@ -314,7 +314,7 @@ function brightWhite(text, terminate) {
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
  * @returns {string} The colored string
  */
-function brightWhiteBg(text, terminate) {
+function brightWhiteBg(text, terminate=true) {
 	return `\x1b[107m${text}` + (terminate ? `\x1b[0m` : "");
 }
 

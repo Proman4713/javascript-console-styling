@@ -1,11 +1,11 @@
 (async () => {
-	const { brightGreen, cyan, greenBg } = require("../Colors");
+	const { brightGreen, cyan, greenBg } = require("../Colours");
 	const Prompt = require("./promptUser");
 
 	console.log(brightGreen("Starting test, please stay focused!") + "\n");
 
 	console.log(cyan("----Starting color test----") + "\n");
-	require("./colorTest")();
+	require("./colourTest")();
 
 	const answer = await new Prompt().askQuestion("\n" + 'Did everything show successfully? (y/n) ');
 
