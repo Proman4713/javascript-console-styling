@@ -1,7 +1,7 @@
-const Colors = require("./Colors");
+const Colours = require("./Colours");
 const Decorations = require("./Decorations");
 
 module.exports = {
-	Colors,
+	Colours,
 	Decorations
 };

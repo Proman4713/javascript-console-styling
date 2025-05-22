@@ -2,7 +2,7 @@
  * Adds a Black colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function black(text, terminate=true) {
 	return `\x1b[30m${text}` + (terminate ? `\x1b[0m` : "");
@@ -12,7 +12,7 @@ function black(text, terminate=true) {
  * Adds a Black Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function blackBg(text, terminate=true) {
 	return `\x1b[40m${text}` + (terminate ? `\x1b[0m` : "");
@@ -22,7 +22,7 @@ function blackBg(text, terminate=true) {
  * Adds a Red colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function red(text, terminate=true) {
 	return `\x1b[31m${text}` + (terminate ? `\x1b[0m` : "");
@@ -32,7 +32,7 @@ function red(text, terminate=true) {
  * Adds a Red Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function redBg(text, terminate=true) {
 	return `\x1b[41m${text}` + (terminate ? `\x1b[0m` : "");
@@ -42,7 +42,7 @@ function redBg(text, terminate=true) {
  * Adds a Green colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function green(text, terminate=true) {
 	return `\x1b[32m${text}` + (terminate ? `\x1b[0m` : "");
@@ -52,7 +52,7 @@ function green(text, terminate=true) {
  * Adds a Green Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function greenBg(text, terminate=true) {
 	return `\x1b[42m${text}` + (terminate ? `\x1b[0m` : "");
@@ -62,7 +62,7 @@ function greenBg(text, terminate=true) {
  * Adds a Yellow colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function yellow(text, terminate=true) {
 	return `\x1b[33m${text}` + (terminate ? `\x1b[0m` : "");
@@ -72,7 +72,7 @@ function yellow(text, terminate=true) {
  * Adds a Yellow Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function yellowBg(text, terminate=true) {
 	return `\x1b[43m${text}` + (terminate ? `\x1b[0m` : "");
@@ -82,7 +82,7 @@ function yellowBg(text, terminate=true) {
  * Adds a Blue colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function blue(text, terminate=true) {
 	return `\x1b[34m${text}` + (terminate ? `\x1b[0m` : "");
@@ -92,7 +92,7 @@ function blue(text, terminate=true) {
  * Adds a Blue Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function blueBg(text, terminate=true) {
 	return `\x1b[44m${text}` + (terminate ? `\x1b[0m` : "");
@@ -102,7 +102,7 @@ function blueBg(text, terminate=true) {
  * Adds a Magenta colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function magenta(text, terminate=true) {
 	return `\x1b[35m${text}` + (terminate ? `\x1b[0m` : "");
@@ -112,7 +112,7 @@ function magenta(text, terminate=true) {
  * Adds a Magenta Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function magentaBg(text, terminate=true) {
 	return `\x1b[45m${text}` + (terminate ? `\x1b[0m` : "");
@@ -122,7 +122,7 @@ function magentaBg(text, terminate=true) {
  * Adds a Cyan colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function cyan(text, terminate=true) {
 	return `\x1b[36m${text}` + (terminate ? `\x1b[0m` : "");
@@ -132,7 +132,7 @@ function cyan(text, terminate=true) {
  * Adds a Cyan Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function cyanBg(text, terminate=true) {
 	return `\x1b[46m${text}` + (terminate ? `\x1b[0m` : "");
@@ -142,7 +142,7 @@ function cyanBg(text, terminate=true) {
  * Adds a White colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function white(text, terminate=true) {
 	return `\x1b[37m${text}` + (terminate ? `\x1b[0m` : "");
@@ -152,7 +152,7 @@ function white(text, terminate=true) {
  * Adds a White Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function whiteBg(text, terminate=true) {
 	return `\x1b[47m${text}` + (terminate ? `\x1b[0m` : "");
@@ -162,7 +162,7 @@ function whiteBg(text, terminate=true) {
  * Adds a Grey colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function gray(text, terminate=true) {
 	return `\x1b[90m${text}` + (terminate ? `\x1b[0m` : "");
@@ -172,7 +172,7 @@ function gray(text, terminate=true) {
  * Adds a Grey Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function grayBg(text, terminate=true) {
 	return `\x1b[100m${text}` + (terminate ? `\x1b[0m` : "");
@@ -182,7 +182,7 @@ function grayBg(text, terminate=true) {
  * Adds a Bright Red colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightRed(text, terminate=true) {
 	return `\x1b[91m${text}` + (terminate ? `\x1b[0m` : "");
@@ -192,7 +192,7 @@ function brightRed(text, terminate=true) {
  * Adds a Bright Red Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightRedBg(text, terminate=true) {
 	return `\x1b[101m${text}` + (terminate ? `\x1b[0m` : "");
@@ -202,7 +202,7 @@ function brightRedBg(text, terminate=true) {
  * Adds a Bright Green colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightGreen(text, terminate=true) {
 	return `\x1b[92m${text}` + (terminate ? `\x1b[0m` : "");
@@ -212,7 +212,7 @@ function brightGreen(text, terminate=true) {
  * Adds a Bright Green Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightGreenBg(text, terminate=true) {
 	return `\x1b[102m${text}` + (terminate ? `\x1b[0m` : "");
@@ -222,7 +222,7 @@ function brightGreenBg(text, terminate=true) {
  * Adds a Bright Yellow colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightYellow(text, terminate=true) {
 	return `\x1b[93m${text}` + (terminate ? `\x1b[0m` : "");
@@ -232,7 +232,7 @@ function brightYellow(text, terminate=true) {
  * Adds a Bright Yellow Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightYellowBg(text, terminate=true) {
 	return `\x1b[103m${text}` + (terminate ? `\x1b[0m` : "");
@@ -242,7 +242,7 @@ function brightYellowBg(text, terminate=true) {
  * Adds a Bright Blue colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightBlue(text, terminate=true) {
 	return `\x1b[94m${text}` + (terminate ? `\x1b[0m` : "");
@@ -252,7 +252,7 @@ function brightBlue(text, terminate=true) {
  * Adds a Bright Blue Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightBlueBg(text, terminate=true) {
 	return `\x1b[104m${text}` + (terminate ? `\x1b[0m` : "");
@@ -262,7 +262,7 @@ function brightBlueBg(text, terminate=true) {
  * Adds a Bright Magenta colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightMagenta(text, terminate=true) {
 	return `\x1b[95m${text}` + (terminate ? `\x1b[0m` : "");
@@ -272,7 +272,7 @@ function brightMagenta(text, terminate=true) {
  * Adds a Bright Magenta Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightMagentaBg(text, terminate=true) {
 	return `\x1b[105m${text}` + (terminate ? `\x1b[0m` : "");
@@ -282,7 +282,7 @@ function brightMagentaBg(text, terminate=true) {
  * Adds a Bright Cyan colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightCyan(text, terminate=true) {
 	return `\x1b[96m${text}` + (terminate ? `\x1b[0m` : "");
@@ -292,7 +292,7 @@ function brightCyan(text, terminate=true) {
  * Adds a Bright Cyan Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightCyanBg(text, terminate=true) {
 	return `\x1b[106m${text}` + (terminate ? `\x1b[0m` : "");
@@ -302,7 +302,7 @@ function brightCyanBg(text, terminate=true) {
  * Adds a Bright White colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightWhite(text, terminate=true) {
 	return `\x1b[97m${text}` + (terminate ? `\x1b[0m` : "");
@@ -312,7 +312,7 @@ function brightWhite(text, terminate=true) {
  * Adds a Bright White Background colour styling to the provided text.
  * @param {string} text The text to apply the colouring on...
  * @param {boolean} terminate Whether or not to terminate the styling chain (reset)
- * @returns {string} The colored string
+ * @returns {string} The coloured string
  */
 function brightWhiteBg(text, terminate=true) {
 	return `\x1b[107m${text}` + (terminate ? `\x1b[0m` : "");

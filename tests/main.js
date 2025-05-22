@@ -4,7 +4,7 @@
 
 	console.log(brightGreen("Starting test, please stay focused!") + "\n");
 
-	console.log(cyan("----Starting color test----") + "\n");
+	console.log(cyan("----Starting colour test----") + "\n");
 	require("./colourTest")();
 
 	const answer = await new Prompt().askQuestion("\n" + 'Did everything show successfully? (y/n) ');

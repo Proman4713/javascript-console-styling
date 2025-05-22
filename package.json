@@ -1,7 +1,7 @@
 {
   "name": "javascript-console-styling",
-  "version": "1.1.2",
-  "description": "A package made specifically for providing you with all the javascript console colors and styles you'll ever need as simple functions!",
+  "version": "1.1.3",
+  "description": "A package made specifically for providing you with all the javascript console colours and styles you'll ever need as simple functions!",
   "main": "index.js",
   "scripts": {
     "test": "node ./tests/main.js"
@@ -20,8 +20,8 @@
     "chrome",
     "command-line",
     "cli",
-    "colors",
-    "color",
+    "colours",
+    "colour",
     "colour",
     "styling",
     "style",
@@ -41,7 +41,7 @@
   "files": [
 	"index.js",
 	"Decorations",
-	"Colors"
+	"Colours"
   ],
   "author": "Proman4713 <proman4713@proman4713gamedev.com>",
   "license": "MIT",
